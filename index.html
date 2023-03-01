@@ -5,14 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sheng Yu </title>
-</head>
-<body>
-   <h1>Sheng Yu </h1> 
 
-   <img src="image/image1.jpeg">
-   <img >
-   <video width="320" height="240" controls>
-    <source src="image/video1.mp4" type="video/mp4">
-  </video>
+    <style>
+        body {
+  margin: 0;
+}
+
+img, div {
+  width: 306px;
+  height: 346px;
+}
+
+.x {
+  animation: x 2.6s linear infinite alternate;
+}
+
+.y {
+  animation: y 0.8s linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX( calc(100vw - 306px) );
+  }
+}
+
+@keyframes y {
+  100% {
+    transform: translateY( calc(100vh - 346px) );
+  }
+}
+    </style>
+</head>
+<body style="background-color: aquamarine;">
+   <h1>Hzy </h1> 
+
+   
+
+   <div class="x">
+    <img class="y" src="image/image1.jpeg">
+  </div>
+
 </body>
 </html>
