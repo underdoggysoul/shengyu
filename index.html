@@ -7,7 +7,7 @@
     <title>Sheng Yu </title>
 
     <style>
-        body {
+body {
   margin: 0;
 }
 
@@ -34,6 +34,16 @@ img, div {
   100% {
     transform: translateY( calc(100vh - 50px) );
   }
+}
+img{
+  border-radius: 50px;
+}
+img:hover {
+  /* Start the vibrate animation with duration 0.5 seconds */
+  animation: vibrate 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
 }
 
 .whiteText{
