@@ -37,7 +37,7 @@ img, div {
 }
 @keyframes vibrate {
   0% { transform: rotate(0deg); }
-  10% { transform: rotate(-2deg); }
+  10% { transform: rotate(-deg); }
   20% { transform: rotate(2deg); }
   30% { transform: rotate(0deg); }
   40% { transform: rotate(2deg); }
@@ -53,7 +53,7 @@ img{
 }
 img:hover {
   /* Start the vibrate animation with duration 0.5 seconds */
-  animation: vibrate 0.5s;
+  animation: vibrate 0.1s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
