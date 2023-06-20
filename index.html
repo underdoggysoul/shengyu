@@ -2,79 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sheng Yu </title>
-
-    <style>
-body {
-  margin: 0;
-}
-
-img, div {
-  width: 306px;
-  height: 346px;
-}
-
-.x {
-  animation: x 2.6s linear infinite alternate;
-}
-
-.y {
-  animation: y 0.8s linear infinite alternate;
-}
-
-@keyframes x {
-  100% {
-    transform: translateX( calc(100vw) );
-  }
-}
-
-@keyframes y {
-  100% {
-    transform: translateY( calc(100vh - 50px) );
-  }
-}
-@keyframes vibrate {
-  0% { transform: rotate(0deg); }
-  10% { transform: rotate(-deg); }
-  20% { transform: rotate(2deg); }
-  30% { transform: rotate(0deg); }
-  40% { transform: rotate(2deg); }
-  50% { transform: rotate(-2deg); }
-  60% { transform: rotate(0deg); }
-  70% { transform: rotate(-2deg); }
-  80% { transform: rotate(2deg); }
-  90% { transform: rotate(0deg); }
-  100% { transform: rotate(-2deg); }
-}
-img{
-  border-radius: 50px;
-}
-img {
-  /* Start the vibrate animation with duration 0.5 seconds */
-  animation: vibrate 0.1s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
-}
-
-.whiteText{
-  color:whitesmoke
-}
-    </style>
+    <title>Document</title>
 </head>
-<body style="background-color: blue;">
-   <h1 class="whiteText">Hzy </h1> 
+<style>
+    body{
+        background-color: lightblue;
+    }
+</style>
+<body >
+    <video id="video" src="image/Intro_VO1_1.mp4"   type='video/mp4; codecs="hvc1"'>
+    </video>
 
-   
-
-   <div class="">
-    <img class="" src="image/image1.jpeg">
-  </div>
-  <div class="">
-    <img class="" src="image/image1.jpeg">
-  </div>
-  
 </body>
 </html>
